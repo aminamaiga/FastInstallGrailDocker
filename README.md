@@ -3,8 +3,24 @@
 Moot, R. (2015), A Type-Logical Treebank for French, Journal of Language Modelling 3(1), pp. 229-265.
 
 ### Installer docker  
-![Docker] (https://docs.docker.com/get-docker/)
+[Docker] (https://docs.docker.com/get-docker/)
 Vérifier l'installation sur votre ligne de commande avec la commande __docker -v__
 
-###  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Organisation
+Le projet est constitué:
+* du dossier model (ElmostForManyLangs)
+* du dossier GrailLight (code python Tcl Pl)
+* du dossier elmo_superpos
+* Le fichier requirements contient les dépendants pyth
+- PyOpenGL
+- Tensorflow
+- keras
+- torch==1.7.1
+- h5py
+- matplotlib
+- numpy
+- pandas
+- elmoformanylangs
+- gensim
