@@ -14,6 +14,7 @@ Le projet est constitué:
 * du dossier GrailLight (code python Tcl Pl)
 * du dossier elmo_superpos
 * Le fichier requirements contient les dépendants pyth
+
 - PyOpenGL
 - Tensorflow
 - keras
@@ -23,4 +24,4 @@ Le projet est constitué:
 - numpy
 - pandas
 - elmoformanylangs
-- gensim
+- gensim!
