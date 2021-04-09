@@ -10,10 +10,10 @@ Vérifier l'installation sur votre ligne de commande avec la commande __docker -
 
 ### Organisation
 Le projet est constitué:
-* du dossier model (ElmostForManyLangs)
-* du dossier GrailLight (code python Tcl Pl)
-* du dossier elmo_superpos
-* Le fichier requirements contient les dépendants pyth
+1. du dossier model (ElmostForManyLangs)
+2. du dossier GrailLight (code python Tcl Pl)
+3. du dossier elmo_superpos
+4. Le fichier requirements contient les dépendants pyth
 
 - PyOpenGL
 - Tensorflow
