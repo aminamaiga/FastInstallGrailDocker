@@ -13,7 +13,7 @@ Le projet est constitué:
 1. du dossier model (ElmostForManyLangs)
 2. du dossier GrailLight (code python Tcl Pl)
 3. du dossier elmo_superpos
-4. Le fichier requirements contient les dépendants python installer dans l'image docker pyth.
+4. Le fichier requirements contient les dépendances python installées dans l'image docker pyth.
 
 - PyOpenGL
 - Tensorflow
