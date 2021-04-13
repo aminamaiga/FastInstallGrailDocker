@@ -26,7 +26,7 @@ Le projet est constitué:
 - elmoformanylangs
 - gensim
 
-### installation
+### Installation
 1. Créer un fichier raw.txt dans votre repertoire de travail et Metter une phrase à analyser par exemple: 
 *L'analyseur syntaxique et sémantique du français à large échelle GRAIL a été développé par Richard Moot.*
 3. Télécharger le fichier [script.sh] (https://github.com/aminamaiga/Grail/blob/main/script.sh)
