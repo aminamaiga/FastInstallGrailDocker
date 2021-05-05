@@ -48,7 +48,7 @@ S'en suit les messages *"Tagging succeeded"*
                        
 Le bash de la machine Swipl s'ouvre, tapez manuellement les commandes suivantes pour la lémmatisation:  
 une par une  
-##### *swipl -s /app/lefff.pl -g "lemmatize(['./app/GrailLight/superpos_nolem.pl'])." -t halt.*  
+##### *swipl -s /app/lefff.pl -g "lemmatize(['/app/superpos_nolem.pl'])." -t halt.*  
 ##### *swipl -s /app/grail_light_nd.pl -g "compile('./app/GrailLight/superpos')." -t halt.*  
 ##### *swipl -s /app/grail_light_nd.pl -g "chart_parse_all." -t halt.*  
 ##### *exit pour sortir du bash*  
