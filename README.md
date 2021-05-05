@@ -13,18 +13,23 @@ Le projet est constitué:
 1. du dossier model (ElmostForManyLangs)
 2. du dossier GrailLight (code python Tcl Pl)
 3. du dossier elmo_superpos
-4. Le fichier requirements contient les dépendances python installées dans l'image docker pyth.
+4. Le fichier requirements contient les dépendances python installées dans l'image docker pyth (surtout avec les bonnes versions de chaque package).
 
-- PyOpenGL
-- Tensorflow
-- keras
-- torch==1.7.1
-- h5py
-- matplotlib
-- numpy
-- pandas
-- elmoformanylangs
-- gensim
+torch==1.7.1
+torchvision==0.8.2
+torchaudio==0.7.2
+allennlp
+h5py==2.10.0
+numpy==1.19.5
+elmoformanylangs
+PyOpenGL
+Tensorflow==2.4.1
+keras==2.4.3
+overrides
+matplotlib==3.3.4
+pandas==1.1.3
+gensim==3.8.3
+python-Levenshtein
 
 ### Installation
 1. Créer un fichier raw.txt dans votre repertoire de travail et Metter une phrase à analyser par exemple: 
