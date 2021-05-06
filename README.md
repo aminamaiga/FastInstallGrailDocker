@@ -56,13 +56,12 @@ S'en suit les messages *"Tagging succeeded"*
 Le bash de la machine Swipl s'ouvre, tapez manuellement les commandes suivantes pour la lémmatisation:  
 une par une  
 ##### *swipl -s /app/lefff.pl -g "lemmatize(['/app/superpos_nolem.pl'])." -t halt.*  
-##### *swipl -s /app/grail_light_nd.pl -g "compile('./app/superpos')." -t halt.*  
-##### *swipl -s /app/grail_light_nd.pl -g "chart_parse_all." -t halt.*  
+##### *swipl -s /app/load.pl -g "chart_parse_all." -t halt.*  
 ##### *exit pour sortir du bash*  
 ##### *docker exec -it container4 bash -c 'pdflatex /app/semantics.tex'*  
 ##### *X* pour exit
-##### * docker cp container4:/semantics.pdf . *
-##### * docker cp container4:/proof.tex . *
+##### *docker cp container4:/semantics.pdf .*
+##### *docker cp container4:/proof.tex .*
 
 
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G3.PNG)
