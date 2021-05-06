@@ -13,7 +13,7 @@ Le projet est constitué:
 1. du dossier model (ElmostForManyLangs)
 2. du dossier GrailLight (code python Tcl Pl)
 3. du dossier elmo_superpos
-4. Le fichier requirements contient les dépendances python installées dans l'image docker pyth (surtout avec les bonnes versions de chaque package).
+4. Le fichier requirements contient les dépendances python installées dans l'image docker pyth (surtout avec les bonnes versions et le bon ordre de chaque package).
 
 torch==1.7.1  
 torchvision==0.8.2  
@@ -35,14 +35,16 @@ python-Levenshtein
 1. Créer un fichier raw.txt dans votre repertoire de travail et Metter une phrase à analyser par exemple: 
 *L'analyseur syntaxique et sémantique du français à large échelle GRAIL a été développé par Richard Moot.*
 3. Télécharger le fichier [script.sh] (https://github.com/aminamaiga/Grail/blob/main/script.sh)
-4. Exécuter la commande ./script.sh (Elle prend du temps pour la première fois, en effet 3 images Docker vont être téléchargées depuis le dockerHub)
-  * Image du code source (environ 6Go). Le DockerFile est disponible pour créer votre propre image [DockerFile] (https://github.com/aminamaiga/Grail/blob/main/Dockerfile)
+4. Exécuter la commande ./script.sh (Elle prend du temps pour la première fois, en effet 4 images Docker vont être téléchargées depuis le dockerHub)
+  * Image du code source (environ 4Go). Le DockerFile est disponible pour créer votre propre image [DockerFile] (https://github.com/aminamaiga/Grail/blob/main/Dockerfile)
   * Image Swipl
   * Image Tclsh
+  * Pdflatex
 6. Vous allez voir des traces sur la console pour toutes les actions exécutées:  
   * La création du conteneur 1 pour le code source  
   * La création du conteneur 2 pour le tclsh  
   * La création du conteneur 3 pour le swipl  
+  * La création du conteneur 4 pour le pdflatex
 
 Si vous obtenez le message *"Containers run succeeded"*, bravo! vos images et conteneurs ont été bien téléchargés et exécutés.  
 S'en suit le message *"Tokenisation succeeded".*
@@ -54,10 +56,13 @@ S'en suit les messages *"Tagging succeeded"*
 Le bash de la machine Swipl s'ouvre, tapez manuellement les commandes suivantes pour la lémmatisation:  
 une par une  
 ##### *swipl -s /app/lefff.pl -g "lemmatize(['/app/superpos_nolem.pl'])." -t halt.*  
-##### *swipl -s /app/grail_light_nd.pl -g "compile('./app/GrailLight/superpos')." -t halt.*  
+##### *swipl -s /app/grail_light_nd.pl -g "compile('./app/superpos')." -t halt.*  
 ##### *swipl -s /app/grail_light_nd.pl -g "chart_parse_all." -t halt.*  
 ##### *exit pour sortir du bash*  
-
+##### *docker exec -it container4 bash -c 'pdflatex /app/semantics.tex'*  
+##### *X* pour exit
+##### *docker cp container1:/app/semantics.pdf*
+##### *docker cp container1:/app/proof.tex*
 
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G1.PNG)
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G2.PNG)
