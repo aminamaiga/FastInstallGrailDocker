@@ -68,9 +68,7 @@ une par une
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G2.PNG)
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G3.PNG)
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G4.PNG)
-
-
-
+![alt text](https://github.com/aminamaiga/Grail/blob/main/G5.PNG)
 
 
 
