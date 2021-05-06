@@ -64,10 +64,11 @@ une par une
 ##### *docker cp container1:/app/semantics.pdf*
 ##### *docker cp container1:/app/proof.tex*
 
-![alt text](https://github.com/aminamaiga/Grail/blob/main/G1.PNG)
-![alt text](https://github.com/aminamaiga/Grail/blob/main/G2.PNG)
+
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G3.PNG)
+![alt text](https://github.com/aminamaiga/Grail/blob/main/G1.PNG)
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G4.PNG)
+![alt text](https://github.com/aminamaiga/Grail/blob/main/G2.PNG)
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G5.PNG)
 
 
