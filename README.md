@@ -57,9 +57,16 @@ Le bash de la machine Swipl s'ouvre, tapez manuellement les commandes suivantes 
 une par une  
 ##### *swipl -s /app/lefff.pl -g "lemmatize(['/app/superpos_nolem.pl'])." -t halt.*  
 ##### *swipl -s /app/load.pl -g "chart_parse_all." -t halt.*  
-##### *exit pour sortir du bash*  
+
+##### *cp semantics.tex /app*  
+##### *cp proof.tex /app*  
+##### *exit pour sortir du bash*   
+
+
 ##### *docker exec -it container4 bash -c 'pdflatex /app/semantics.tex'*  
 ##### *X* pour exit
+
+
 ##### *docker cp container3:/semantics.pdf .*
 ##### *docker cp container3:/proof.tex .*
 
