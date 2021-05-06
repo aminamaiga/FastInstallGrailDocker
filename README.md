@@ -36,7 +36,7 @@ python-Levenshtein
 *L'analyseur syntaxique et sémantique du français à large échelle GRAIL a été développé par Richard Moot.*
 3. Télécharger le fichier [script.sh] (https://github.com/aminamaiga/Grail/blob/main/script.sh)
 4. Exécuter la commande ./script.sh (Elle prend du temps pour la première fois, en effet 4 images Docker vont être téléchargées depuis le dockerHub)
-  * Image du code source (environ 4Go). Le DockerFile est disponible pour créer votre propre image [DockerFile] (https://github.com/aminamaiga/Grail/blob/main/Dockerfile)
+  * Image du code source + le model (environ 4Go). Le DockerFile est disponible pour créer votre propre image [DockerFile] (https://github.com/aminamaiga/Grail/blob/main/Dockerfile)
   * Image Swipl
   * Image Tclsh
   * Pdflatex
