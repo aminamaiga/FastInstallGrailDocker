@@ -60,8 +60,8 @@ une par une
 ##### *exit pour sortir du bash*  
 ##### *docker exec -it container4 bash -c 'pdflatex /app/semantics.tex'*  
 ##### *X* pour exit
-##### *docker cp container4:/semantics.pdf .*
-##### *docker cp container4:/proof.tex .*
+##### *docker cp container3:/semantics.pdf .*
+##### *docker cp container3:/proof.tex .*
 
 
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G3.PNG)
