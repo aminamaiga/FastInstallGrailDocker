@@ -66,7 +66,7 @@ une par une
 ##### *docker exec -it container4 bash -c 'pdflatex /app/semantics.tex'*  
 
 
-##### *docker cp container4:/semantics.pdf .*
+##### *docker cp container4:/semantics.pdf .* (vous allez copier le fichier de l'analyse sémantique du conteneur vers votre machine(host). Le "." fait réference à votre repértoire actuel)
 
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G3.PNG)
 ![alt text](https://github.com/aminamaiga/Grail/blob/main/G1.PNG)
