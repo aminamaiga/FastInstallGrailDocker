@@ -58,8 +58,7 @@ une par une
 ##### *swipl -s /app/lefff.pl -g "lemmatize(['/app/superpos_nolem.pl'])." -t halt.*  
 ##### *swipl -s /app/load.pl -g "chart_parse_all." -t halt.*  
 
-##### *cp semantics.tex /app*  
-##### *exit pour sortir du bash*   
+##### *cp semantics.tex /app && exit*  
 
 
 ##### *docker exec -it container4 bash -c 'pdflatex /app/semantics.tex'*  
