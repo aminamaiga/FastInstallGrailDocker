@@ -59,7 +59,6 @@ une par une
 ##### *swipl -s /app/load.pl -g "chart_parse_all." -t halt.*  
 
 ##### *cp semantics.tex /app*  
-##### *cp proof.tex /app*  
 ##### *exit pour sortir du bash*   
 
 
